@@ -1,0 +1,60 @@
+/* src/components/UserList/UserList.css */
+
+.office-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.office-buttons button {
+  font-size: 18px;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.office-buttons button.active {
+  background-color: #e74c3c;
+}
+
+.office-buttons button:hover {
+  background-color: #e74c3c;
+  transform: scale(1.05);
+}
+
+@media (max-width: 650px) {
+  .office-buttons {
+    flex-direction: column;
+  }
+
+  .office-buttons button {
+    margin-bottom: 10px;
+  }
+}
+
+.user-list__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-list__item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: calc(50% - 20px);
+}
+
+.user-list__title {
+  margin-top: 35px;
+  margin-bottom: 0;
+}
