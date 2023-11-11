@@ -55,7 +55,10 @@ const UserList = ({ onVote }) => {
                   <td>{candidate.name}</td>
                   <td>{candidate.email}</td>
                   <td>
-                    <button onClick={() => handleVote(candidate.id)}>Vote</button>
+                    {/* Add a test ID to the Vote button */}
+                    <button data-testid={`vote-button-${candidate.id}`} onClick={() => handleVote(candidate.id)}>
+                      Vote
+                    </button>
                   </td>
                 </tr>
               ))}
