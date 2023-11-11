@@ -1,0 +1,74 @@
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px; /* Add some spacing between tables */
+  border-radius: 8px; /* Add border radius to tables */
+  overflow: hidden; /* Ensure border radius is applied to the table */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow to tables */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.voting-systems {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.gutter {
+    padding: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.user-list__table button {
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  margin: 2px;
+}
+
+.user-list__table button:hover {
+  background-color: #e74c3c;
+  transform: scale(1.05);
+}
+
+.user-list__table button:active {
+  background-color: #c0392b;
+}
+
+.result-list table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  border-radius: 8px; /* Add border radius */
+}
+
+.result-list th, .result-list td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-list th {
+  background-color: #f2f2f2;
+}
