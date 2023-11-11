@@ -1,3 +1,23 @@
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px; /* Add some spacing between tables */
+  border-radius: 8px; /* Add border radius to tables */
+  overflow: hidden; /* Ensure border radius is applied to the table */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow to tables */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
 .voting-systems {
     display: flex;
     justify-content: space-around;
@@ -34,4 +54,21 @@
 
 .user-list__table button:active {
   background-color: #c0392b;
+}
+
+.result-list table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  border-radius: 8px; /* Add border radius */
+}
+
+.result-list th, .result-list td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-list th {
+  background-color: #f2f2f2;
 }
