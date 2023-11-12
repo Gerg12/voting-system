@@ -1,4 +1,3 @@
-// src/components/UserList/UserList.js
 import React, { useState, useEffect } from 'react';
 import candidates from '../../data/candidates';
 import './UserList.css';
@@ -21,7 +20,7 @@ const UserList = ({ onVote }) => {
 
   return (
     <div>
-      <h2>User List Example</h2>
+      <h2>Voting List</h2>
       <div className="office-buttons">
         {['President', 'Vice President', 'Treasurer', 'Secretary'].map(office => (
           <button

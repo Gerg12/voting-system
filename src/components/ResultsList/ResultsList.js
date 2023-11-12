@@ -1,4 +1,3 @@
-// ResultsList.js
 import React from 'react';
 
 const ResultsList = ({ office, userVotes, candidates }) => {
