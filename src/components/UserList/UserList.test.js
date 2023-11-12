@@ -1,4 +1,3 @@
-// src/components/UserList/UserList.test.js
 import React from 'react';
 import { render, fireEvent, getByText, getByTestId } from '@testing-library/react'; // Importing the missing functions
 import UserList from './UserList';
