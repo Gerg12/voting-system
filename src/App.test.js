@@ -1,11 +1,9 @@
-// src/App.test.js
-import React from 'react';
+import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders App component', () => {
+test('renders Voting Site header', () => {
   render(<App />);
-  // Replace the text or query based on your actual App component
-  const appElement = screen.getByText(/Voting Site/i);
-  expect(appElement).toBeInTheDocument();
+  const headerElement = screen.getByText(/Voting Site/i);
+  expect(headerElement).toBeInTheDocument();
 });
