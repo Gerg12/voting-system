@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# Voting System App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple voting system built with Create React App.
 
-## Available Scripts
+## Getting Started
+
+These instructions will help you set up and run the application on your local machine.
+
+1. Clone the repository:
+git clone https://github.com/yourusername/voting-system-app.git
+
+2. Navigate to the project directory:
+cd voting-system-app
+
+## Running the App
 
 In the project directory, you can run:
 
