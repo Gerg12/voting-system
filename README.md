@@ -23,4 +23,6 @@ Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser
 
 ### `npm test`
 
-Launches simple tests including one to check the vote button.
+Launches simple tests including one to check the vote button. Should look like the image below.
+
+![image](https://github.com/Gerg12/voting-system/assets/25252407/563217ed-adfe-4822-88df-c83ac7fd2689)
