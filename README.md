@@ -23,6 +23,13 @@ Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser
 
 ### `npm test`
 
-Launches simple tests including one to check the vote button. Should look like the image below.
+Launches simple tests including one to check the vote button.
+
+## How to Use
+1. Select an office and click
+2. Click Vote butotn next to name
+3. Results will load in the tables below
+
+Once built it should look like the image below.
 
 ![image](https://github.com/Gerg12/voting-system/assets/25252407/563217ed-adfe-4822-88df-c83ac7fd2689)
